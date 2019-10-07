@@ -15,7 +15,7 @@ public class LoginPage {
 	@Test
 	public void verifyElement() {
 		WebDriver driver = new ChromeDriver();
-		driver.findElement(By.id("wrapper"));
+		driver.findElement(By.id("S"));
 		driver.quit();
 		
 		
