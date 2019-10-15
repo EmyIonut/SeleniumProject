@@ -12,12 +12,5 @@ public class LoginPage {
 	driver.manage().window().maximize();
 	
 	}
-	@Test
-	public void verifyElement() {
-		WebDriver driver = new ChromeDriver();
-		driver.findElement(By.id("S"));
-		driver.quit();
-		
-		
-	}
+	
 }
